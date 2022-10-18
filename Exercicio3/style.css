@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 5px 0 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightcoral;
+    display: grid;
+    grid-template-rows: 3;
+    row-gap: 4rem;
+    text-align: center;
+}
+
+header, footer {
+    color: #fff;
+}
+
+section {
+    background-color: #fff;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: .5rem .9rem 3rem rgba(0, 0, 0, 0.644);
+    text-align: left;
+}
+
+section div {
+    margin: 1rem;
+}
+
+section input {
+    border-radius: 5px;
+    border: .1rem solid black;
+    width: 100px;
+    padding-left: .3rem;
+}
+
+section button {
+    background-color:crimson;
+    padding: .2rem 1rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
